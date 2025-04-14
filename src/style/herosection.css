@@ -1,0 +1,139 @@
+.hero-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 40px;
+  background-color: #fff;
+  position: relative;
+  flex-wrap: wrap;
+}
+
+.hero-content {
+  max-width: 50%;
+}
+
+.hero-title {
+  font-size: 48px;
+  font-weight: bold;
+  color: #2a2a72;
+  line-height: 1.2;
+  margin-bottom: 20px;
+  font-family: 'Poppins';
+  font-weight: normal;
+}
+
+.hero-subtitle {
+  font-size: 18px;
+  color: #6b7280;
+  margin-bottom: 30px;
+}
+
+.hero-button {
+  padding: 15px 30px;
+  background-color: #6b48ff;
+  color: #fff;
+  border: none;
+  border-radius: 25px;
+  font-size: 16px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.hero-image {
+  max-width: 45%;
+}
+
+.hero-image img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.hero-trust {
+  position: absolute;
+  bottom: 20px;
+  right: 250px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: #6b48ff;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.trust-icon {
+  color: white;
+  font-size: 20px;
+}
+
+.trust-text {
+  font-size: 14px;
+  color: #f5f7fc;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Tablet (max-width: 1024px) */
+@media (max-width: 1024px) {
+  .hero-content {
+    max-width: 60%;
+  }
+
+  .hero-image {
+    max-width: 35%;
+  }
+
+  .hero-title {
+    font-size: 36px;
+  }
+
+  .hero-subtitle {
+    font-size: 16px;
+  }
+
+  .hero-button {
+    padding: 12px 25px;
+    font-size: 14px;
+  }
+
+  .hero-trust {
+    bottom: 15px;
+    right: 30px;
+  }
+}
+
+/* Mobile (max-width: 768px) */
+@media (max-width: 768px) {
+  .hero-section {
+    flex-direction: column;
+    padding: 30px 20px;
+    text-align: center;
+  }
+
+  .hero-content {
+    max-width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .hero-image {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+
+  .hero-title {
+    font-size: 28px;
+  }
+
+  .hero-subtitle {
+    font-size: 14px;
+  }
+
+  .hero-button {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+
+  .hero-trust {
+    position: static;
+    margin-top: 20px;
+    justify-content: center;
+  }
+}
