@@ -10,7 +10,7 @@ function App() {
   const features = [
     { title: 'HARGA BERSAHABAT', description: 'Biaya terjangkau untuk semua skala bisnis', icon: <FaHandHoldingHand /> },
     { title: 'MENDUKUNG SEO', description: 'Optimasi website untuk ranking lebih baik di mesin pencari', icon: <FaSistrix /> },
-    { title: 'BISA CUSTOM', description: 'Desain dan fitur sesuai kebutuhan Anda', icon: <FaGears /> },
+    { title: 'TAMPILAN WEB YANG MENARIK', description: 'Tampilan Web yang menarik Responsive disemua perangkat', icon: <FaGears /> },
   ];
   return (
     <>
