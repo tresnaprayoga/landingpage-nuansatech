@@ -9,11 +9,11 @@ const HeroSection = ({ title, subtitle, buttonText, trustText }) => {
         <button className='hero-button'>{buttonText}</button>
       </div>
       <div className='hero-image'>
-        <img src='/logontch3.jpg' alt='Team meeting' />
+        <img src='/heroimg.JPG' alt='Team meeting' />
       </div>
       <div className='hero-trust'>
         <span className='trust-icon'>✓</span>
-        <h3 className='trust-text'>Hari gini ga punya Website</h3>
+        <h3 className='trust-text'>Pakai website untuk kebutuhan bisnis anda</h3>
       </div>
     </section>
   );

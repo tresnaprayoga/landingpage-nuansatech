@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import '../style/navbar.css';
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -10,7 +11,7 @@ const Navbar = () => {
   return (
     <nav className='navbar'>
       <div className='navbar-logo'>
-        <img src='/logontch3.jpg'></img>
+        <img src='/logontch3.png'></img>
       </div>
 
       {/* Hamburger Icon */}
@@ -22,10 +23,10 @@ const Navbar = () => {
 
       {/* Menu Links */}
       <div className={`navbar-links ${isMenuOpen ? 'active' : ''}`}>
-        <a href='#'>Features</a>
-        <a href='#'>Pricing</a>
-        <a href='#'>Showcase</a>
-        <a href='#'>Teams</a>
+        <a href='#'>Home</a>
+        <a href='#'>Harga</a>
+        <a href='#'>Profil</a>
+        <a href='#'>Kontak</a>
       </div>
 
       <div className='navbar-buttons'>

@@ -9,23 +9,24 @@
 }
 
 .hero-content {
-  max-width: 50%;
+  max-width: 40%;
 }
 
 .hero-title {
-  font-size: 48px;
-  font-weight: bold;
+  font-size: 60px;
   color: #2a2a72;
   line-height: 1.2;
   margin-bottom: 20px;
-  font-family: 'Poppins';
-  font-weight: normal;
+  font-family: 'Roboto';
+  font-weight: bold;
 }
 
 .hero-subtitle {
   font-size: 18px;
-  color: #6b7280;
+  color: black;
   margin-bottom: 30px;
+  font-family: 'Roboto';
+  font-weight: lighter;
 }
 
 .hero-button {
