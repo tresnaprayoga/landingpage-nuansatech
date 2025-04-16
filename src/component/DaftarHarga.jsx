@@ -2,7 +2,7 @@ import React from 'react';
 import '../style/daftarharga.css';
 
 const PricingSection = ({ plans }) => {
-  const judulPaket = 'Paket Layanan Kami';
+  const judulPaket = 'Harga Paket Layanan Kami';
   return (
     <section className='pricing-section'>
       <h2>{judulPaket}</h2>

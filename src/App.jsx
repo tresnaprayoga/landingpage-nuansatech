@@ -9,6 +9,8 @@ import DomainPricing from './component/DomainPraicing';
 import domainPricing from './dataStatis/domainpricing';
 import InfoPromo from './component/InfoPromo';
 import ListItemCard from './component/listCard/ListItemCard';
+import items from './dataStatis/dataitemcard';
+import Footer from './component/footer';
 import pricingPromo from './dataStatis/pricingPromo';
 
 import './style/app.css';
@@ -16,7 +18,7 @@ import './style/app.css';
 function App() {
   const features = [
     { title: 'HARGA BERSAHABAT', description: 'Biaya terjangkau untuk semua skala bisnis', icon: <FaHandHoldingHand /> },
-    { title: 'MENDUKUNG SEO', description: 'Optimasi website untuk ranking lebih baik di mesin pencari', icon: <FaSistrix /> },
+    { title: 'Website Siap Pakai', description: 'Full support gratis selama 1 tahun untuk maintenance', icon: <FaSistrix /> },
     { title: 'TAMPILAN WEB YANG MENARIK', description: 'Tampilan Web yang menarik Responsive disemua perangkat', icon: <FaGears /> },
   ];
   return (
@@ -40,10 +42,15 @@ function App() {
         </div>
         <div className='cardlist'>
           <h2>Pilih Template</h2>
-          <ListItemCard />
+          <ListItemCard items={items} />
+          <div className='see-more'>
+            <button>Lihat Semua</button>
+          </div>
         </div>
       </main>
-      <footer></footer>
+      <footer>
+        <Footer />
+      </footer>
     </>
   );
 }
