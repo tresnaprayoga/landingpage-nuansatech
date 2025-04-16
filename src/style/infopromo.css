@@ -1,0 +1,10 @@
+.info-promo {
+  background-color: aliceblue;
+  padding: 10px;
+}
+
+.info-promo h4 {
+  font-family: 'Roboto';
+  font-weight: bold;
+  text-align: center;
+}

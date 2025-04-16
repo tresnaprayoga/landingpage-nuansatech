@@ -7,6 +7,8 @@ import PricingSection from './component/DaftarHarga';
 import pricingPlans from './dataStatis/datalabelharga';
 import DomainPricing from './component/DomainPraicing';
 import domainPricing from './dataStatis/domainpricing';
+import InfoPromo from './component/InfoPromo';
+import ListItemCard from './component/listCard/ListItemCard';
 import pricingPromo from './dataStatis/pricingPromo';
 
 import './style/app.css';
@@ -20,6 +22,7 @@ function App() {
   return (
     <>
       <header>
+        <InfoPromo />
         <Navbar />
       </header>
       <main>
@@ -34,6 +37,10 @@ function App() {
         <WhyChooseUs title='Kenapa Pilih Kami' subtitle='Harga Bersahabat Kualitas Dahsyat' features={features} />
         <div>
           <PricingSection title='SPESIFIKASI LAYANAN' plans={pricingPlans} showDetails='Spesifikasi detail' />
+        </div>
+        <div className='cardlist'>
+          <h2>Pilih Template</h2>
+          <ListItemCard />
         </div>
       </main>
       <footer></footer>
