@@ -3,6 +3,11 @@ import Navbar from './component/navbar';
 import HeroSection from './component/HeroSection';
 import WhyChooseUs from './component/WhyChooseUs';
 import { FaHandHoldingHand, FaSistrix, FaGears } from 'react-icons/fa6';
+import PricingSection from './component/DaftarHarga';
+import pricingPlans from './dataStatis/datalabelharga';
+import DomainPricing from './component/DomainPraicing';
+import domainPricing from './dataStatis/domainpricing';
+import pricingPromo from './dataStatis/pricingPromo';
 
 import './style/app.css';
 
@@ -25,8 +30,11 @@ function App() {
           buttonText='Hubungi Kami'
           trustText='The most trusted system in the global world'
         />
-
+        <DomainPricing domains={domainPricing} />
         <WhyChooseUs title='Kenapa Pilih Kami' subtitle='Harga Bersahabat Kualitas Dahsyat' features={features} />
+        <div>
+          <PricingSection title='SPESIFIKASI LAYANAN' plans={pricingPlans} showDetails='Spesifikasi detail' />
+        </div>
       </main>
       <footer></footer>
     </>
