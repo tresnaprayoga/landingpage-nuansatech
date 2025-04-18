@@ -11,7 +11,7 @@ const Navbar = () => {
   return (
     <nav className='navbar'>
       <div className='navbar-logo'>
-        <img src='/logontch3.png'></img>
+        <img src='/logontch3.png' alt='Logo Nuansa Technology'></img>
       </div>
 
       {/* Hamburger Icon */}

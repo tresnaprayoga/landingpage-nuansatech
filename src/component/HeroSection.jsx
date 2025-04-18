@@ -9,7 +9,7 @@ const HeroSection = ({ title, subtitle, buttonText, trustText }) => {
         <button className='hero-button'>{buttonText}</button>
       </div>
       <div className='hero-image'>
-        <img src='/heroimg.JPG' alt='Team meeting' />
+        <img src='/heroimg.JPG' alt='Hero Image' />
       </div>
       <div className='hero-trust'>
         <span className='trust-icon'>✓</span>
