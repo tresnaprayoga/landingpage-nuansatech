@@ -4,7 +4,7 @@ import '../style/infopromo.css';
 function InfoPromo() {
   return (
     <div className='info-promo'>
-      <h4>Ada PROMO sekarang nih. Hanya Rp 70.000/Bulan. Daftar Sekarang dan Dapatkan Website Impianmu!</h4>
+      <h4>Dapatkan Potongan Harga Hingga 300.000 Rupiah</h4>
     </div>
   );
 }

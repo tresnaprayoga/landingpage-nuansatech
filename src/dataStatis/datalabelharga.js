@@ -1,7 +1,7 @@
 const pricingPlans = [
-  { name: 'Paket Singkat', price: 'IDR 360,000', duration: 'Langganan 4 Bulan' },
-  { name: 'Paket Tengah', price: 'IDR 680,000', duration: 'Langganan 8 Bulan' },
-  { name: 'Paket Panjang', price: 'IDR 900.000', duration: 'Langganan 1 Tahun' },
+  { name: '1 Tahun Berlangganan', price: 'IDR 1000,000', duration: 'Sudah termasuk harga Hosting dan Template Web' },
+  { name: '2 Tahun Berlangganan', price: 'IDR 1500,000', duration: 'Sudah termasuk harga Hosting dan Template Web' },
+  { name: '3 Tahun Berlangganan', price: 'IDR 2000.000', duration: 'Sudah termasuk harga Hosting dan Template Web' },
 ];
 
 export default pricingPlans;

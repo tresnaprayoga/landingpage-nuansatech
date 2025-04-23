@@ -18,7 +18,7 @@ import './style/app.css';
 function App() {
   const features = [
     { title: 'HARGA BERSAHABAT', description: 'Biaya terjangkau untuk semua skala bisnis', icon: <FaHandHoldingHand /> },
-    { title: 'Website Siap Pakai', description: 'Full support gratis selama 1 tahun untuk maintenance', icon: <FaSistrix /> },
+    { title: 'Website Siap Pakai', description: 'Cocok untuk anda yang tidak mau ribet membuat Website sendiri', icon: <FaSistrix /> },
     { title: 'TAMPILAN WEB YANG MENARIK', description: 'Tampilan Web yang menarik Responsive disemua perangkat', icon: <FaGears /> },
   ];
   return (

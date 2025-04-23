@@ -1,6 +1,6 @@
 const infopromo = [
   {
-    promo: 'Daftar sekarang dan Dapat Website mu hanyan dengan harga 70.000/bulan',
+    promo: 'Dapatkan Potongan Harga Hingga 300.000 Rupiah',
   },
 ];
 
