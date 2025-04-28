@@ -88,6 +88,8 @@
   font-size: 0.9rem;
   cursor: pointer;
   transition: background-color 0.3s ease;
+  font-family: 'Roboto';
+  font-weight: bold;
 }
 
 .item-button:hover {

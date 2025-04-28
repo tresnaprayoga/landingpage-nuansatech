@@ -1,5 +1,4 @@
 import React from 'react';
-import '../style/daftarharga.css';
 
 const PricingSection = ({ plans }) => {
   const judulPaket = 'Harga Paket Berlangganan';

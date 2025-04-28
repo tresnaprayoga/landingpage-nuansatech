@@ -1,3 +1,12 @@
+const dataHerosection = [
+  {
+    title: 'Saatnya Bisnis Anda Naik Kelas !',
+    subtitle: '"Di era digital seperti sekarang, website bukan lagi pilihan—melainkan kebutuhan. Dengan memiliki website, Bisnis Anda bisa dikenal lebih luas, dipercaya lebih cepat, dan diakses 24 jam tanpa henti."',
+    buttonText: 'Hubungi Kami',
+    trustText: 'The most trusted system in the global world',
+  },
+];
+
 const domainPricing = [
   { name: '.id', originalPrice: 'Rp 252.900', discountedPrice: 'Rp 220.900' },
   { name: '.com', originalPrice: 'Rp 199.900', discountedPrice: 'Rp 160.900' },
@@ -8,4 +17,12 @@ const domainPricing = [
   { name: '.icu', originalPrice: 'Rp 264.900', discountedPrice: 'Rp 26.900' },
 ];
 
-export default domainPricing;
+function DataHeroSection() {
+  return dataHerosection;
+}
+
+function HargaDomain() {
+  return domainPricing;
+}
+
+export { DataHeroSection, HargaDomain };

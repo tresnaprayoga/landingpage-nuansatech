@@ -1,4 +1,11 @@
 @import './herosection.css';
+@import './footer.css';
+@import './cardlist.css';
+@import './daftarharga.css';
+@import './domainpricing.css';
+@import './infopromo.css';
+@import './navbar.css';
+@import './whychooseus.css';
 
 * {
   padding: 0;

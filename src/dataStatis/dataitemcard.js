@@ -26,7 +26,7 @@ const items = [
   {
     title: 'Kopi Shop',
     harga: "Photographer's portfolio",
-    image: 'card4.jpg',
+    image: 'card7.jpg',
     buttonText: 'Shop now',
   },
   {

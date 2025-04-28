@@ -1,5 +1,4 @@
 import React from 'react';
-import '../style/whychooseus.css';
 
 const WhyChooseUs = ({ title, subtitle, features }) => {
   return (

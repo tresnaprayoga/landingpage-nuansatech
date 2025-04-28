@@ -13,7 +13,7 @@ const HeroSection = ({ title, subtitle, buttonText, trustText }) => {
       </div>
       <div className='hero-trust'>
         <span className='trust-icon'>✓</span>
-        <h3 className='trust-text'>Pakai website untuk kebutuhan bisnis anda</h3>
+        <h3 className='trust-text'>{trustText}</h3>
       </div>
     </section>
   );

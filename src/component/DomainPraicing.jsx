@@ -1,5 +1,4 @@
 import React from 'react';
-import '../style/domainpricing.css';
 
 const DomainPricing = ({ domains }) => {
   return (
