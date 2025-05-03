@@ -28,10 +28,10 @@ const Navbar = () => {
         <a href='#'>Kontak</a>
       </div>
 
-      <div className='navbar-buttons'>
+      {/* <div className='navbar-buttons'>
         <button className='my-account-btn'>My Account</button>
         <button className='signup-btn'>Sign Up</button>
-      </div>
+      </div> */}
     </nav>
   );
 };
