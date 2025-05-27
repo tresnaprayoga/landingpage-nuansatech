@@ -47,7 +47,7 @@ function App() {
           <PricingSection title='SPESIFIKASI LAYANAN' plans={pricingPlans} showDetails='Spesifikasi detail' />
         </div>
         <div className='cardlist'>
-          <h2>Dapatkan Web Pilihan Anda </h2>
+          <h2>Dapatkan Web Pilihan Anda Disini </h2>
           <ListItemCard items={items} />
           <div className='see-more'>
             <button>Lihat Semua</button>

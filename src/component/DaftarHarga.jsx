@@ -1,14 +1,16 @@
 import React from 'react';
+import { FcAssistant, FcMultipleDevices } from 'react-icons/fc';
 
 const PricingSection = ({ plans }) => {
   const judulPaket = 'Harga Paket Berlangganan';
   return (
-    <section className='pricing-section'>
-      <h2>Harga Bersahabat, Kualitas Dahsyat !</h2>
-      <p>Harga Paket Berlangganan</p>
+    <section className='pricing-section' data-aos-duration='1000' data-aos-delay='100'>
+      <h1 data-aos='slide-right'> Paket Berlangganan</h1>
+      <h2 data-aos='slide-right'>Harga Bersahabat, Kualitas Dahsyat !</h2>
+
       <div className='plans-container'>
         {plans.map((plan, index) => (
-          <div key={index} className='plan-card'>
+          <div key={index} className='plan-card' data-aos='slide-left'>
             <h3 className='plan-name'>{plan.name}</h3>
             <div className='plan-price'>
               <p>{plan.price}</p>
@@ -23,6 +25,12 @@ const PricingSection = ({ plans }) => {
             </button>
           </div>
         ))}
+      </div>
+      <div className='icons' data-aos='fade-up'>
+        <p>Dapatkan website anda sekarang</p>
+        <h4>
+          <FcMultipleDevices />
+        </h4>
       </div>
     </section>
   );

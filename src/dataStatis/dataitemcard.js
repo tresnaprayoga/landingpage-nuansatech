@@ -1,11 +1,5 @@
 const items = [
   {
-    title: 'Template website Yayasan/NGO',
-    harga: 'Rp. 500.000',
-    image: 'card6.jpg',
-    buttonText: 'Shop now',
-  },
-  {
     title: 'Landing Page Bisnis',
     harga: 'Discover the benefits of natural ingredients',
     image: '/card.jpg',

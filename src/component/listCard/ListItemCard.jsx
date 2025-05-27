@@ -4,12 +4,6 @@ import ItemCard from './itemCard';
 const ListItemCard = () => {
   const items = [
     {
-      title: 'Template 02',
-      harga: 'Rp. 500.000',
-      image: 'card.jpg',
-      buttonLink: 'https://nuanansatech.netlify.app/',
-    },
-    {
       title: 'Template 03',
       harga: 'Rp. 500.000',
       image: 'card2.jpg',

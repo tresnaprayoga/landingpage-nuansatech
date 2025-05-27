@@ -3,7 +3,7 @@ const dataHerosection = [
     title: 'Saatnya Bisnis Anda Naik Kelas !',
     subtitle: '"Di era digital seperti sekarang, website bukan lagi pilihan—melainkan kebutuhan. Dengan memiliki website, Bisnis Anda bisa dikenal lebih luas, dipercaya lebih cepat, dan diakses 24 jam tanpa henti."',
     buttonText: 'Hubungi Kami',
-    trustText: 'The most trusted system in the global world',
+    trustText: 'Jangkau Pelanggan Baru Melalui Website',
     ImgHero: '/2.jpg',
   },
 ];

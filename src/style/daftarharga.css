@@ -1,19 +1,21 @@
 .pricing-section {
   padding: 60px 40px;
-  background-color: #f9fafb;
   text-align: center;
+  margin: 30px auto;
 }
 .pricing-section h2 {
   font-family: 'Roboto';
   font-weight: bold;
   margin-bottom: 10px;
   font-size: 30px;
+  color: #107be6;
 }
 
-.pricing-section p {
+.pricing-section h1 {
   font-family: 'Roboto';
   font-weight: bold;
   margin-bottom: 10px;
+  color: #107be6;
 }
 
 .plan-name,
@@ -21,14 +23,18 @@
 .plan-duration p {
   font-family: 'Roboto';
   font-weight: normal;
+  color: black;
 }
 
 .plans-container {
-  width: 60%;
+  width: 80%;
   margin: 20px auto;
   display: flex;
   justify-content: center;
-  gap: 20px;
+}
+.plan-price p {
+  font-family: 'Roboto';
+  font-weight: bold;
 }
 
 .plan-card {
@@ -47,7 +53,7 @@
 .plan-name {
   font-size: 18px;
   font-weight: bold;
-  color: #6b48ff;
+  color: #107be6;
   margin-bottom: 10px;
   font-family: 'Roboto';
   font-weight: bold;
@@ -89,11 +95,35 @@
   font-weight: bold;
 }
 
+.icons {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.icons h4 {
+  font-size: 200px;
+}
+
+.icons p {
+  font-size: 25px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  color: #107be6;
+}
+
 /* Tablet (max-width: 1024px) */
-@media (max-width: 1024px) {
+@media (min-width: 1024px) {
   .pricing-section {
     padding: 50px 30px;
-    margin: 40px auto;
+    margin: 10px auto;
+  }
+
+  .pricing-section h2 {
+    font-size: 50px;
+  }
+
+  .pricing-section h1 {
+    font-size: 40px;
   }
 
   .plans-container {
@@ -115,6 +145,10 @@
 
   .plan-duration {
     font-size: 12px;
+  }
+
+  .icons h4 {
+    font-size: 400px;
   }
 }
 
