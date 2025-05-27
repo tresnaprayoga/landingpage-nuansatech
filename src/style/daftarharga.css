@@ -7,9 +7,25 @@
   font-family: 'Roboto';
   font-weight: bold;
   margin-bottom: 10px;
+  font-size: 30px;
+}
+
+.pricing-section p {
+  font-family: 'Roboto';
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.plan-name,
+.plan-price,
+.plan-duration p {
+  font-family: 'Roboto';
+  font-weight: normal;
 }
 
 .plans-container {
+  width: 60%;
+  margin: 20px auto;
   display: flex;
   justify-content: center;
   gap: 20px;
@@ -53,10 +69,31 @@
   font-weight: lighter;
 }
 
+.button-harga {
+  background-color: blue;
+  padding: 5px;
+  width: 40%;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button-harga:hover {
+  background-color: #0377e4;
+}
+
+.button-harga a {
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+
 /* Tablet (max-width: 1024px) */
 @media (max-width: 1024px) {
   .pricing-section {
     padding: 50px 30px;
+    margin: 40px auto;
   }
 
   .plans-container {
