@@ -13,7 +13,6 @@
 
 .see-more {
   margin: 10px auto;
-
   padding: 10px;
   border-radius: 5px;
   text-align: center;
@@ -30,7 +29,7 @@
 
 .list-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   gap: 24px;
 }
 
@@ -104,6 +103,6 @@
     margin: 10px auto;
   }
   .cardlist h2 {
-    font-size: 50px;
+    font-size: 40px;
   }
 }
