@@ -27,10 +27,14 @@ const PricingSection = ({ plans }) => {
         ))}
       </div>
       <div className='icons' data-aos='fade-up'>
-        <p>Dapatkan website anda sekarang</p>
-        <h4>
+        <p>Website Yang Responsif di Semua Prangkat</p>
+        <div className='img-icon'>
+          <img src='./7.png' />
+        </div>
+
+        {/* <h4>
           <FcMultipleDevices />
-        </h4>
+        </h4> */}
       </div>
     </section>
   );

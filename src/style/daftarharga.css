@@ -111,6 +111,15 @@
   color: #107be6;
 }
 
+.img-icon {
+  width: 40%;
+  margin: auto;
+}
+
+.img-icon img {
+  width: 100%;
+}
+
 /* Tablet (max-width: 1024px) */
 @media (min-width: 1024px) {
   .pricing-section {
@@ -180,5 +189,14 @@
 
   .plan-duration {
     font-size: 12px;
+  }
+
+  .img-icon {
+    width: 100%;
+    margin: auto;
+  }
+
+  .img-icon img {
+    width: 100%;
   }
 }

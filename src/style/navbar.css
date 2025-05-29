@@ -1,6 +1,6 @@
 .navbar {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   padding: 20px 40px;
   background-color: #b5e9fa;
@@ -83,6 +83,7 @@
 @media (max-width: 1024px) {
   .navbar {
     padding: 20px 30px;
+    justify-content: space-between;
   }
 
   .navbar-links {
