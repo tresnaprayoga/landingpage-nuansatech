@@ -1,6 +1,6 @@
 .domain-pricing {
   text-align: center;
-  width: 60%;
+  width: 90%;
   margin: 50px auto;
   border-radius: 5px;
 }
@@ -11,17 +11,14 @@
   font-weight: bold;
 }
 .domain-container {
-  display: flex;
-  flex-direction: row-reverse;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(20px, 1fr));
   gap: 10px;
-  margin-right: 50px;
-  flex-wrap: wrap;
+  margin: auto;
 }
 
 .domain-card {
   flex: 1;
-  width: 200px;
   border: 2px solid #6b48ff;
   border-radius: 15px;
   padding: 10px;
@@ -30,13 +27,15 @@
   justify-content: center;
   align-items: center;
   backdrop-filter: blur(5px);
-  background: linear-gradient(180deg, #2a2a72 0%, #1a1a4a 100%);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+  /* background: linear-gradient(180deg, #eeeef1 0%, #d0d0d6 100%); */
 }
 
 .domain-name {
   font-size: 24px;
   font-weight: bold;
-  color: #fff;
+  color: black;
   margin-bottom: 10px;
   font-family: 'Roboto';
   font-weight: bold;
@@ -45,7 +44,7 @@
 
 .domain-original-price {
   font-size: 16px;
-  color: #d1d5db;
+  color: black;
   text-decoration: line-through;
   margin-bottom: 5px;
   font-family: 'Roboto';
@@ -56,25 +55,26 @@
 .domain-discounted-price {
   font-size: 20px;
   font-weight: bold;
-  color: #fff;
+  color: black;
   font-family: 'Roboto';
-  font-weight: lighter;
+  font-weight: bold;
   font-size: 15px;
 }
 
 /* Tablet (max-width: 1024px) */
-@media (max-width: 1024px) {
+@media screen and (min-width: 1024px) {
   .domain-pricing {
     padding: 50px 30px;
+    width: 40%;
   }
 
   .domain-container {
-    gap: 15px;
-    margin-right: 50px;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
   }
 
   .domain-card {
-    max-width: 180px;
+    max-width: 100px;
     padding: 15px;
   }
 
@@ -92,14 +92,13 @@
 }
 
 /* Mobile (max-width: 768px) */
-@media (max-width: 768px) {
+@media screen and (min-width: 768px) {
   .domain-pricing {
     padding: 40px 20px;
   }
 
   .domain-container {
-    flex-direction: column;
-    align-items: center;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 20px;
   }
 

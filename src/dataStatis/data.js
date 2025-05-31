@@ -15,7 +15,6 @@ const domainPricing = [
   { name: '.shop', originalPrice: 'Rp 579.900', discountedPrice: 'Rp 26.900' },
   { name: '.info', originalPrice: 'Rp 413.900', discountedPrice: 'Rp 76.900' },
   { name: '.xyz', originalPrice: 'Rp 231.900', discountedPrice: 'Rp 42.900' },
-  { name: '.icu', originalPrice: 'Rp 264.900', discountedPrice: 'Rp 26.900' },
 ];
 
 function DataHeroSection() {

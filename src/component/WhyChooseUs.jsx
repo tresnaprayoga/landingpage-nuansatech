@@ -11,9 +11,9 @@ const WhyChooseUs = ({ title, subtitle, features }) => {
         {features.map((feature, index) => (
           <div key={index} className='feature-item'>
             <div className='feature-icon'>
-              <h2>{feature.icon}</h2>
+              <p>{feature.icon}</p>
             </div>
-            <h3 className='feature-title'>{feature.title}</h3>
+            <h4 className='feature-title'>{feature.title}</h4>
             <p className='feature-desc'>{feature.description}</p>
           </div>
         ))}

@@ -15,7 +15,7 @@ const HeroSection = ({ title, subtitle, buttonText, trustText, ImgHero }) => {
       </div>
       <div className='hero-trust' data-aos='fade-up'>
         <span className='trust-icon'>✓</span>
-        <h3 className='trust-text'>{trustText}</h3>
+        <p className='trust-text'>{trustText}</p>
       </div>
     </section>
   );

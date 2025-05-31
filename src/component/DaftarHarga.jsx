@@ -29,7 +29,7 @@ const PricingSection = ({ plans }) => {
       <div className='icons' data-aos='fade-up'>
         <p>Website Yang Responsif di Semua Prangkat</p>
         <div className='img-icon'>
-          <img src='./7.png' />
+          <img src='./7.png' alt='gambar prangkat ' />
         </div>
 
         {/* <h4>
