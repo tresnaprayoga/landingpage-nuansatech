@@ -33,7 +33,7 @@ const ListItemCard = () => {
       title: 'Template 02',
       harga: 'Rp. 500.000',
       image: 'card12.JPG',
-      buttonLink: 'https://company-digital-marketing.netlify.app/',
+      buttonLink: 'https://marketing-digital-ntc.netlify.app/',
     },
   ];
 
