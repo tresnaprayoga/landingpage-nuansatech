@@ -6,7 +6,7 @@ const ListItemCard = () => {
     {
       title: 'Template 03',
       harga: 'Rp. 500.000',
-      image: 'card2.jpg',
+      image: 'card11.JPG',
       buttonLink: 'https://usaha-makanan.netlify.app/',
     },
 
