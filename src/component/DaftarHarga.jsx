@@ -5,8 +5,8 @@ const PricingSection = ({ plans }) => {
   const judulPaket = 'Harga Paket Berlangganan';
   return (
     <section className='pricing-section' data-aos-duration='1000' data-aos-delay='100'>
-      <h1 data-aos='slide-right'> Paket Berlangganan</h1>
-      <h2 data-aos='slide-right'>Harga Bersahabat, Kualitas Dahsyat !</h2>
+      <h3 data-aos='slide-right'> Paket Berlangganan</h3>
+      <h4 data-aos='slide-right'>Harga Bersahabat, Kualitas Dahsyat !</h4>
 
       <div className='plans-container'>
         {plans.map((plan, index) => (
@@ -29,7 +29,7 @@ const PricingSection = ({ plans }) => {
       <div className='icons' data-aos='fade-up'>
         <p>Website Yang Responsif di Semua Prangkat</p>
         <div className='img-icon'>
-          <img src='./7.png' alt='gambar prangkat ' />
+          <img src='./7.png' alt='gambar prangkat ' width={800} height={800} style={{ maxWidth: '100%', height: 'auto' }} />
         </div>
 
         {/* <h4>

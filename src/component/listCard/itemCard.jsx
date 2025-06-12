@@ -3,7 +3,7 @@ import React from 'react';
 const ItemCard = ({ image, title, harga, buttonLink }) => {
   return (
     <div className='item-card'>
-      <img src={image} alt={title} className='item-image' />
+      <img src={image} alt={title} className='item-image' width={600} height={600} style={{ maxWidth: '100%', height: 'auto' }} />
       <div className='item-content'>
         <h3>{title}</h3>
         {/* <p>{harga}</p> */}

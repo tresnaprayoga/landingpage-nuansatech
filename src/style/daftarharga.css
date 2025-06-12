@@ -3,17 +3,18 @@
   text-align: center;
   margin: 0px auto;
 }
-.pricing-section h2 {
+.pricing-section h4 {
   font-family: 'Roboto';
   font-weight: bold;
   margin-bottom: 10px;
-  font-size: 30px;
+  font-size: 25px;
   color: #107be6;
 }
 
-.pricing-section h1 {
+.pricing-section h3 {
   font-family: 'Roboto';
   font-weight: bold;
+  font-size: 30px;
   margin-bottom: 10px;
   color: #107be6;
 }
