@@ -36,7 +36,6 @@ const HomePage = () => {
         <meta property='og:title' content='Nuansa Technology - Bantu umkm punya website' />
         <meta property='og:image' content='https://nuansatechnology.netlify.app/logontch3.png' />
         <meta property='og:type' content='website' />
-
         <meta property='og:url' content='https://nuansatechnology.netlify.app/' />
       </Helmet>
 
