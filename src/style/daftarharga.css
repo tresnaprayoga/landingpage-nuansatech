@@ -1,7 +1,8 @@
 .pricing-section {
   padding: 60px 40px;
   text-align: center;
-  margin: 0px auto;
+
+  margin: 20px auto;
 }
 .pricing-section h4 {
   font-family: 'Roboto';
@@ -36,6 +37,7 @@
 .plan-price p {
   font-family: 'Roboto';
   font-weight: bold;
+  margin: 20px auto;
 }
 
 .plan-card {
@@ -71,7 +73,7 @@
 .plan-duration {
   font-size: 12px;
   color: #6b7280;
-  margin-top: 5px;
+  margin: 20px auto;
   font-family: 'Roboto';
   font-weight: lighter;
 }
