@@ -7,8 +7,8 @@ import PricingSection from '../component/DaftarHarga';
 import pricingPlans from '../dataStatis/datalabelharga';
 import DomainPricing from '../component/DomainPraicing';
 import ListItemCard from '../component/listCard/ListItemCard';
-import items from '../dataStatis/dataitemcard';
 import { DataHeroSection, HargaDomain } from '../dataStatis/data';
+import { dataItemCard } from '../dataStatis/dataitemcard';
 import ListHeroSection from '../component/heroListSection';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
@@ -22,6 +22,7 @@ const HomePage = () => {
   }, []);
   const [DataHero, setDataHero] = useState(() => DataHeroSection());
   const [DataHargaDomain, setDataHargaDOmain] = useState(() => HargaDomain());
+  const [DataItemCard, setDataItemCard] = useState(() => dataItemCard());
 
   const features = [
     { title: 'HARGA BERSAHABAT', description: 'Biaya terjangkau untuk semua skala bisnis', icon: <FaHandHoldingHand /> },
@@ -48,7 +49,7 @@ const HomePage = () => {
         </div>
         <div className='cardlist'>
           <h4>Dapatkan Web Pilihan Anda Disini </h4>
-          <ListItemCard items={items} />
+          <ListItemCard items={DataItemCard} />
           <div className='see-more'>
             <button>Lihat Semua</button>
           </div>
