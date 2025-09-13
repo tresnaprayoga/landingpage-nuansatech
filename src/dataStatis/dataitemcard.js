@@ -78,6 +78,13 @@ const items = [
     image: 'card14.JPG',
     buttonLink: 'https://laundry-01.netlify.app/',
   },
+
+  {
+    title: 'Pendingin ruangan',
+    harga: 'Rp. 500.000',
+    image: 'card15.JPG',
+    buttonLink: 'https://laundry-01.netlify.app/',
+  },
 ];
 
 function dataItemCard() {
