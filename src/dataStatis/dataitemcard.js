@@ -83,7 +83,7 @@ const items = [
     title: 'Pendingin ruangan',
     harga: 'Rp. 500.000',
     image: 'card15.JPG',
-    buttonLink: 'https://laundry-01.netlify.app/',
+    buttonLink: 'https://pendingin-ruangan.netlify.app/',
   },
 ];
 
