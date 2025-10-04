@@ -32,6 +32,7 @@
   align-items: center;
   transition: box-shadow 0.2s, transform 0.2s;
   border: 1.5px solid #e3e8ee;
+  box-sizing: border-box;
 }
 
 .domain-card-v2:hover {
@@ -79,24 +80,22 @@
 @media (max-width: 900px) {
   .domain-grid {
     gap: 20px;
+
+    width: 100%;
   }
   .domain-card-v2 {
-    min-width: 180px;
-    max-width: 220px;
-    padding: 24px 12px;
+    box-sizing: border-box;
   }
 }
 
 @media (max-width: 600px) {
   .domain-grid {
+    width: 100%;
     flex-direction: column;
     align-items: center;
     gap: 16px;
   }
   .domain-card-v2 {
-    width: 90vw;
-    min-width: unset;
-    max-width: unset;
-    padding: 18px 8px;
+    width: 100%;
   }
 }

@@ -1,7 +1,6 @@
 .pricing-section {
   padding: 60px 40px;
   text-align: center;
-
   margin: 20px auto;
 }
 .pricing-section h4 {
@@ -21,13 +20,19 @@
 }
 
 .plan-name,
-.plan-price,
-.plan-duration p {
+.plan-price {
   font-family: 'Roboto';
   font-weight: normal;
   color: black;
 }
 
+.plan-duration p {
+  text-align: left;
+  font-family: Poppins;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 25px;
+}
 .plans-container {
   width: 80%;
   margin: 20px auto;
@@ -99,6 +104,23 @@
   font-weight: bold;
 }
 
+.button-harga1 {
+  background-color: rgb(58, 140, 247);
+  padding: 12px 20px;
+  width: 50%;
+  border-radius: 5px;
+  cursor: pointer;
+  border: 2px solid blue;
+}
+.button-harga1 a {
+  text-decoration: none;
+  padding: 12px;
+  font-size: 12px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  color: white;
+}
+
 .icons {
   margin-left: auto;
   margin-right: auto;
@@ -122,6 +144,18 @@
 
 .img-icon img {
   width: 100%;
+}
+
+.custom-plan {
+  margin: 50px auto;
+  width: 50%;
+  padding: 20px;
+  font-size: 14px;
+  color: #6b7280;
+  font-family: Poppins;
+  font-weight: 700;
+  background-color: #fff;
+  border: 1px solid #e5e7eb;
 }
 
 /* Tablet (max-width: 1024px) */
@@ -198,5 +232,10 @@
 
   .img-icon img {
     width: 100%;
+  }
+
+  .custom-plan {
+    width: 100%;
+    box-sizing: border-box;
   }
 }

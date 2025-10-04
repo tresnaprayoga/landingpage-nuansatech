@@ -15,7 +15,7 @@ const PricingSection = ({ plans }) => {
             <div className='plan-price'>
               <p>{plan.price}</p>
             </div>
-            <div className='plan-duration'>
+            <div className='plan-duration' style={{ whiteSpace: 'pre-line' }}>
               <p>{plan.duration}</p>
             </div>
             <button className='button-harga'>
@@ -25,6 +25,18 @@ const PricingSection = ({ plans }) => {
             </button>
           </div>
         ))}
+      </div>
+
+      <div className='custom-plan' data-aos='fade-up'>
+        <h4 data-aos='fade-up'>Butuh Website dengan Fitur Custom ?</h4>
+        <p data-aos='fade-up'>Hubungi kami untuk konsultasi kebutuhan website anda</p>
+        <div className='contact-button' data-aos='fade-up'>
+          <button className='button-harga1'>
+            <a href='https://wa.me/6285782319796' target='blank'>
+              Konsultasi Sekarang
+            </a>
+          </button>
+        </div>
       </div>
       <div className='icons' data-aos='fade-up'>
         <p>Website Yang Responsif di Semua Prangkat</p>
