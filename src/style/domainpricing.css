@@ -1,127 +1,102 @@
-.domain-pricing {
+.domain-pricing-v2 {
+  width: 60%;
+  margin: 30px auto;
+  padding: 40px 0;
   text-align: center;
-  width: 100%;
-  margin: auto;
-  border-radius: 5px;
-  box-sizing: border-box;
-  background-color: #1ec2f8;
 }
 
-.domain-pricing h2 {
-  margin: 20px auto;
-  font-family: 'Roboto';
-  font-weight: bold;
-  color: rgb(255, 254, 254);
-}
-.domain-container {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(20px, 1fr));
-  gap: 10px;
-  margin: auto;
+.domain-title {
+  font-family: Poppins;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #222;
+  margin-bottom: 32px;
 }
 
-.domain-card {
-  border: 2px solid #faf9fc;
-  background-color: white;
-  border-radius: 15px;
-  padding: 3px;
+.domain-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 32px;
+}
+
+.domain-card-v2 {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 2px 12px rgba(30, 194, 248, 0.08);
+  padding: 5px 5px;
+  min-width: 220px;
+  max-width: 260px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  backdrop-filter: blur(5px);
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-
-  /* background: linear-gradient(180deg, #eeeef1 0%, #d0d0d6 100%); */
+  transition: box-shadow 0.2s, transform 0.2s;
+  border: 1.5px solid #e3e8ee;
 }
 
-.domain-name {
-  font-size: 24px;
-  font-weight: bold;
-  color: black;
-  margin-bottom: 10px;
-  font-family: 'Roboto';
-  font-weight: bold;
-  font-size: 15px;
+.domain-card-v2:hover {
+  box-shadow: 0 6px 24px rgba(30, 194, 248, 0.18);
+  transform: translateY(-4px) scale(1.03);
+  border-color: #1ec2f8;
 }
 
-.domain-original-price {
-  font-size: 16px;
-  color: black;
+.domain-logo {
+  width: 64px;
+  height: 64px;
+  object-fit: contain;
+  margin-bottom: 18px;
+}
+
+.domain-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Poppins;
+}
+
+.domain-name-v2 {
+  font-family: Poppins;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #222;
+  margin-bottom: 8px;
+}
+
+.domain-original {
+  font-size: 0.95rem;
+  color: #aaa;
   text-decoration: line-through;
-  margin-bottom: 5px;
-  font-family: 'Roboto';
-  font-weight: lighter;
-  font-size: 15px;
+  margin-bottom: 4px;
 }
 
-.domain-discounted-price {
-  font-size: 20px;
-  font-weight: bold;
-  color: black;
-  font-family: 'Roboto';
-  font-weight: bold;
-  font-size: 15px;
+.domain-discount {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #1ec2f8;
 }
 
-/* Tablet (max-width: 1024px) */
-@media screen and (min-width: 1024px) {
-  .domain-pricing {
-    width: 100%;
-  }
-
-  .domain-container {
-    width: 100%;
-    box-sizing: border-box;
-    padding: 50px;
-    display: flex;
-  }
-
-  .domain-card {
-    width: 30px;
-    padding: 10px;
-  }
-
-  .domain-name {
-    font-size: 20px;
-  }
-
-  .domain-original-price {
-    font-size: 14px;
-  }
-
-  .domain-discounted-price {
-    font-size: 18px;
-  }
-}
-
-/* Mobile (max-width: 768px) */
-@media screen and (min-width: 768px) {
-  .domain-pricing {
-    box-sizing: border-box;
-    padding: 40px 20px;
-  }
-
-  .domain-container {
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+/* Responsive */
+@media (max-width: 900px) {
+  .domain-grid {
     gap: 20px;
   }
-
-  .domain-card {
-    max-width: 100%;
-    width: 100%;
-    padding: 20px;
+  .domain-card-v2 {
+    min-width: 180px;
+    max-width: 220px;
+    padding: 24px 12px;
   }
+}
 
-  .domain-name {
-    font-size: 18px;
+@media (max-width: 600px) {
+  .domain-grid {
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
   }
-
-  .domain-original-price {
-    font-size: 12px;
-  }
-
-  .domain-discounted-price {
-    font-size: 16px;
+  .domain-card-v2 {
+    width: 90vw;
+    min-width: unset;
+    max-width: unset;
+    padding: 18px 8px;
   }
 }
