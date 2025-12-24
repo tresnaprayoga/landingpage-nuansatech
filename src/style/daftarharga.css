@@ -84,11 +84,12 @@
 }
 
 .button-harga {
-  background-color: blue;
+  background-color: #09ccea;
   padding: 12px 20px;
   width: 40%;
   border-radius: 5px;
   cursor: pointer;
+  border: none;
 }
 
 .button-harga:hover {
@@ -105,12 +106,12 @@
 }
 
 .button-harga1 {
-  background-color: rgb(58, 140, 247);
+  background-color: #09ccea;
   padding: 12px 20px;
   width: 50%;
   border-radius: 5px;
   cursor: pointer;
-  border: 2px solid blue;
+  border: none;
 }
 .button-harga1 a {
   text-decoration: none;
