@@ -40,6 +40,11 @@
   text-transform: uppercase;
 }
 
+.hero-button a {
+  color: #fff;
+  text-decoration: none;
+}
+
 .hero-image {
   max-width: 45%;
 }

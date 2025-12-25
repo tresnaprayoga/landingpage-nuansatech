@@ -7,7 +7,9 @@ const HeroSection = ({ title, subtitle, buttonText, trustText, ImgHero }) => {
         <h1 className='hero-title'>{title}</h1>
         <p className='hero-subtitle'>{subtitle}</p>
         <button className='hero-button' data-aos='fade-up'>
-          {buttonText}
+          <a href='https://wa.me/6285811714593' target='_blank' rel='noopener noreferrer'>
+            {buttonText}
+          </a>
         </button>
       </div>
       <div className='hero-image' data-aos='slide-left'>

@@ -9,12 +9,10 @@ const dataHerosection = [
 ];
 
 const domainPricing = [
-  { name: '.id', originalPrice: 'Rp 252.900', discountedPrice: 'Rp 220.900' },
-  { name: '.com', originalPrice: 'Rp 199.900', discountedPrice: 'Rp 160.900' },
-  { name: '.online', originalPrice: 'Rp 579.900', discountedPrice: 'Rp 42.900' },
-  { name: '.shop', originalPrice: 'Rp 579.900', discountedPrice: 'Rp 26.900' },
-  { name: '.info', originalPrice: 'Rp 413.900', discountedPrice: 'Rp 76.900' },
-  { name: '.xyz', originalPrice: 'Rp 231.900', discountedPrice: 'Rp 42.900' },
+  { name: '.com', originalPrice: 'Rp 250.000', discountedPrice: 'Rp 170.000' },
+  { name: '.my.id', originalPrice: 'Rp 100.000', discountedPrice: 'Rp 60.000' },
+  { name: '.org', originalPrice: 'Rp 250.000', discountedPrice: 'Rp 90.000' },
+  { name: '.net', originalPrice: 'Rp 250.000', discountedPrice: 'Rp 140.000' },
 ];
 
 function DataHeroSection() {

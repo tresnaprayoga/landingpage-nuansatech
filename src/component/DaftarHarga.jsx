@@ -32,7 +32,7 @@ const PricingSection = ({ plans }) => {
         <p data-aos='fade-up'>Hubungi kami untuk konsultasi kebutuhan website anda</p>
         <div className='contact-button' data-aos='fade-up'>
           <button className='button-harga1'>
-            <a href='https://wa.me/6285782319796' target='blank'>
+            <a href='https://wa.me/6285811714593' target='blank'>
               Konsultasi Sekarang
             </a>
           </button>

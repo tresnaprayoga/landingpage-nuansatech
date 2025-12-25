@@ -24,10 +24,13 @@
 }
 
 .why-subtitle {
+  width: 60%;
+  margin: 0 auto;
   font-size: 16px;
   color: white;
-  font-family: 'Roboto';
-  font-weight: bold;
+  font-family: Poppins;
+  font-weight: normal;
+  text-align: justify;
 }
 
 .why-features {
@@ -80,6 +83,9 @@
 
   .why-subtitle {
     font-size: 14px;
+    width: 100%;
+    text-align: left;
+    font-weight: normal;
   }
 
   .why-features {

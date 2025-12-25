@@ -21,14 +21,14 @@ const Footer = () => {
       <div className='footer-section social-section'>
         <p>Stay connected with us</p>
         <div className='icons'>
-          <a href='#' aria-label='Kunjungi Situs'>
+          {/* <a href='#' aria-label='Kunjungi Situs'>
             <FaFacebookF />
-          </a>
-          <a href='#' aria-label='Kunjungi Situs'>
+          </a> */}
+          <a href='https://bit.ly/4b0yRIo' aria-label='Kunjungi Situs' target='_blank' rel='noopener noreferrer'>
             <FaInstagram />
           </a>
         </div>
-        <a href='https://wa.me/6285782319796' className='whatsapp-button' target='_blank' rel='noopener noreferrer'>
+        <a href='https://wa.me/6285811714593' className='whatsapp-button' target='_blank' rel='noopener noreferrer'>
           Butuh bantuan?
           <FaWhatsapp className='wa-icon' />
         </a>

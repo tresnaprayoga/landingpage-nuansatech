@@ -3,7 +3,7 @@ import React from 'react';
 const DomainPricing = ({ domains }) => {
   return (
     <section className='domain-pricing-v2'>
-      <h2 className='domain-title'>Harga Domain</h2>
+      <h2 className='domain-title'>Ekstensi domain yang populer</h2>
       <div className='domain-grid'>
         {domains.map((domain, idx) => (
           <div className='domain-card-v2' key={idx}>

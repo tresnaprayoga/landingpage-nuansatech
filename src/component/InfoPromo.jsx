@@ -3,7 +3,7 @@ import React from 'react';
 function InfoPromo() {
   return (
     <div className='info-promo'>
-      <h4>Dapatkan Potongan Harga Hingga 200.000 Rupiah</h4>
+      <h4>Dapatkan DISKON 30% untuk pembelian pertama kali</h4>
     </div>
   );
 }
