@@ -49,6 +49,7 @@ const HomePage = () => {
         <meta property='og:image' content='https://nuansateknologi.com/logontch3.png' />
         <meta property='og:type' content='website' />
         <meta property='og:url' content='https://nuansateknologi.com/' />
+        <link rel='canonical' href='https://nuansateknologi.com/' />
       </Helmet>
 
       <div className='home-page-landingpage'>

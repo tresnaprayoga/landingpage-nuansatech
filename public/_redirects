@@ -1,8 +1,2 @@
-# Pastikan sitemap.xml selalu disajikan sebagai file statis
-/sitemap.xml /sitemap.xml 200!
-
-# Pastikan robots.txt selalu disajikan sebagai file statis
-/robots.txt /robots.txt 200!
-
-# Aturan catch-all untuk SPA (harus di bawah aturan spesifik)
-/* /index.html   200
+# SPA fallback
+/*    /index.html   200
