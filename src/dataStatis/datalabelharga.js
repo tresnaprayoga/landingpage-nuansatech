@@ -7,13 +7,13 @@ const pricingPlans = [
   },
   {
     name: '2 Tahun Berlangganan',
-    price: 'IDR 1000.000',
+    price: 'IDR 900.000',
     duration:
       ' ✔️ Gratis Hosting & Domain (.my.id), \n ✔️Template Web statis \n  ✔️update content max 10 kali (via tim kami) \n ✔️ Fitur: Formulir /WhatsApp, Google Map \n✔️Desain responsif (Smart Phone & Desktop) \n✔️ Revisi: 5x revisi minor (teks/gambar) \n✔️Gratis Copywriting Konten \n ✔️Integrasi Medsos \n✔️Waktu Pengerjaan: 2 Hari kerja',
   },
   {
     name: '3 Tahun Berlangganan',
-    price: 'IDR 1500.000',
+    price: 'IDR 1300.000',
     duration:
       ' ✔️ Gratis Hosting & Domain (.my.id), \n ✔️Template Web statis \n  ✔️update content max 12 kali (via tim kami) \n ✔️Fitur: Formulir /WhatsApp, Google Map \n✔️Desain responsif (Smart Phone & Desktop) \n✔️ Revisi: 7x revisi minor (teks/gambar) \n✔️Gratis Copywriting Konten \n ✔️Integrasi Medsos \n✔️Waktu Pengerjaan: 2 Hari kerja',
   },

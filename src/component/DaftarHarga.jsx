@@ -5,13 +5,13 @@ const PricingSection = ({ plans }) => {
   const judulPaket = 'Harga Paket Berlangganan';
   return (
     <section className='pricing-section' data-aos-duration='1000' data-aos-delay='100'>
-      <h3 data-aos='slide-right'> Paket Berlangganan</h3>
-      <h4 data-aos='slide-right'>Harga Bersahabat, Kualitas Dahsyat !</h4>
+      <h4 data-aos='slide-right'> Paket Berlangganan</h4>
+      <p data-aos='slide-right'>Harga Bersahabat, Kualitas Dahsyat !</p>
 
       <div className='plans-container'>
         {plans.map((plan, index) => (
           <div key={index} className='plan-card' data-aos='slide-left'>
-            <h3 className='plan-name'>{plan.name}</h3>
+            <p className='plan-name'>{plan.name}</p>
             <div className='plan-price'>
               <p>{plan.price}</p>
             </div>

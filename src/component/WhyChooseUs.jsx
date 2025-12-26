@@ -4,7 +4,7 @@ const WhyChooseUs = ({ title, subtitle, features }) => {
   return (
     <section className='why-choose-us'>
       <div className='why-header'>
-        <h2 className='why-title'>{title}</h2>
+        <h3 className='why-title'>{title}</h3>
         <p className='why-subtitle'>{subtitle}</p>
       </div>
       <div className='why-features'>

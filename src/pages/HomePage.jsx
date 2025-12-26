@@ -39,12 +39,16 @@ const HomePage = () => {
   return (
     <>
       <Helmet>
-        <title>Nuansa Technology</title>
-        <meta name='description' content='Website untuk UMKM, usaha jasa, restoran, dan sekolah.' />
-        <meta property='og:title' content='Nuansa Technology - Bantu umkm punya website' />
-        <meta property='og:image' content='https://nuansatechnology.netlify.app/logontch3.png' />
+        <title>Nuansa Teknologi | Buat Website Tanpa Ribet</title>
+        <meta
+          name='description'
+          content='Nuansa Teknologi melayani jasa pembuatan website profesional untuk UMKM, sekolah, 
+        dan usaha jasa. Desain menarik, mobile friendly, dan harga terjangkau.'
+        />
+        <meta property='og:title' content='Nuansa Teknologi - Bantu Bisnis mu punya website' />
+        <meta property='og:image' content='https://nuansateknologi.com/logontch3.png' />
         <meta property='og:type' content='website' />
-        <meta property='og:url' content='https://nuansatechnology.netlify.app/' />
+        <meta property='og:url' content='https://nuansateknologi.com/' />
       </Helmet>
 
       <div className='home-page-landingpage'>
@@ -54,9 +58,11 @@ const HomePage = () => {
         <div ref={profilRef}>
           <WhyChooseUs
             title='Tentang Kami'
-            subtitle='Nuansa Teknologi adalah layanan pengembangan website dan aplikasi digital yang membantu pelaku usaha, UMKM, dan lembaga dalam membangun kehadiran profesional di dunia online. Kami menyediakan solusi website yang rapi, mudah digunakan, dan disesuaikan dengan kebutuhan setiap usaha.
-
-Tidak hanya fokus pada teknis, Nuansa Teknologi juga mengedepankan pendekatan edukatif, mendampingi klien dari awal hingga website siap digunakan. Mulai dari domain, hosting, konten, hingga pengelolaan website, semua kami siapkan agar klien dapat fokus menjalankan usahanya.'
+            subtitle='Nuansa Teknologi adalah layanan pengembangan website dan aplikasi digital yang membantu pelaku usaha, UMKM, 
+            dan lembaga dalam membangun kehadiran profesional di dunia online. Kami menyediakan solusi website yang rapi, mudah digunakan, 
+            dan disesuaikan dengan kebutuhan setiap usaha.Tidak hanya fokus pada teknis, Nuansa Teknologi juga mengedepankan pendekatan edukatif, 
+            mendampingi klien dari awal hingga website siap digunakan. Mulai dari domain, hosting, konten, hingga pengelolaan website, 
+            semua kami siapkan agar klien dapat fokus menjalankan usahanya.'
             features={features}
           />
         </div>

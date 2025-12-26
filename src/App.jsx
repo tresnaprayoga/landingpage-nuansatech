@@ -6,9 +6,6 @@ import './style/app.css';
 function App() {
   return (
     <>
-      <header>
-        <InfoPromo />
-      </header>
       <main>
         <HomePage />
       </main>

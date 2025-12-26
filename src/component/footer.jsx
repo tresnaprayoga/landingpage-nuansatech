@@ -7,9 +7,9 @@ const Footer = () => {
     <footer className='footer'>
       <div></div>
       <div className='footer-section logo-section'>
-        <h2 className='brand'>
+        <p className='brand'>
           Nuansa<span>Technology</span>
-        </h2>
+        </p>
         <p>© 2025 Nuansa Technology</p>
       </div>
 
