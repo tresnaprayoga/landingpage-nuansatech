@@ -59,10 +59,10 @@ const items = [
   },
 
   {
-    title: 'Template 02',
+    title: 'Toko Makanan Hewan',
     harga: 'Rp. 500.000',
-    image: 'card12.JPG',
-    buttonLink: 'https://marketing-digital-ntc.netlify.app/',
+    image: 'card16.JPG',
+    buttonLink: 'https://pet-store-project.netlify.app/',
   },
 
   {

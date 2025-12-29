@@ -12,7 +12,7 @@ const HeroSection = ({ title, subtitle, buttonText, trustText, ImgHero }) => {
           </a>
         </button>
       </div>
-      <div className='hero-image' data-aos='slide-left'>
+      <div className='hero-image' data-aos='slide-right'>
         <img src={ImgHero} alt='Hero Image' width={1600} height={800} style={{ maxWidth: '100%', height: 'auto' }} />
       </div>
       <div className='hero-trust' data-aos='fade-up'>
