@@ -10,7 +10,11 @@ const PricingSection = ({ plans }) => {
 
       <div className='plans-container'>
         {plans.map((plan, index) => (
-          <div key={index} className='plan-card' data-aos='slide-right'>
+          <div
+            key={index}
+            className='plan-card'
+            data-aos='slide-right
+          '>
             <p className='plan-name'>{plan.name}</p>
             <div className='plan-price'>
               <p>{plan.price}</p>

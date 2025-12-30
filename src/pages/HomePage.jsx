@@ -40,16 +40,26 @@ const HomePage = () => {
     <>
       <Helmet>
         <title>Nuansa Teknologi | Buat Website Tanpa Ribet</title>
+        {/* Meta Description (SEO) */}
         <meta
+          property='og:description'
           name='description'
           content='Nuansa Teknologi melayani jasa pembuatan website profesional untuk UMKM, sekolah, 
         dan usaha jasa. Desain menarik, mobile friendly, dan harga terjangkau.'
         />
+
+        {/* Canonical */}
+        <link rel='canonical' href='https://nuansateknologi.com/' />
+
+        {/* Open Graph */}
+
         <meta property='og:title' content='Nuansa Teknologi - Bantu Bisnis mu punya website' />
+
+        <meta property='og:description' content='Nuansa Teknologi melayani jasa pembuatan website profesional untuk UMKM, sekolah, dan usaha jasa. Desain menarik, mobile friendly, dan harga terjangkau.' />
+
         <meta property='og:image' content='https://nuansateknologi.com/logontch3.png' />
         <meta property='og:type' content='website' />
         <meta property='og:url' content='https://nuansateknologi.com/' />
-        <link rel='canonical' href='https://nuansateknologi.com/' />
       </Helmet>
 
       <div className='home-page-landingpage'>
