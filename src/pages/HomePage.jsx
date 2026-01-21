@@ -9,9 +9,10 @@ import PricingSection from '../component/DaftarHarga';
 import pricingPlans from '../dataStatis/datalabelharga';
 import DomainPricing from '../component/DomainPraicing';
 import ListItemCard from '../component/listCard/ListItemCard';
-import { DataHeroSection, HargaDomain } from '../dataStatis/data';
+import { DataHeroSection, HargaDomain, getPromoSectionData } from '../dataStatis/data';
 import { dataItemCard } from '../dataStatis/dataitemcard';
 import ListHeroSection from '../component/heroListSection';
+import ServiceSection from '../component/outherService/outherServcie';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 
@@ -25,6 +26,7 @@ const HomePage = () => {
   const [DataHero, setDataHero] = useState(() => DataHeroSection());
   const [DataHargaDomain, setDataHargaDOmain] = useState(() => HargaDomain());
   const [DataItemCard, setDataItemCard] = useState(() => dataItemCard());
+  const dataService = getPromoSectionData();
 
   const features = [
     { title: 'HARGA BERSAHABAT', description: 'Biaya terjangkau untuk semua skala bisnis. \n Bisa bayar setelah pembuatan website jadi', icon: <FaHandHoldingHand /> },
@@ -45,7 +47,7 @@ const HomePage = () => {
           property='og:description'
           name='description'
           content='Nuansa Teknologi melayani jasa pembuatan website profesional untuk UMKM, sekolah, 
-        dan usaha jasa. Desain menarik, mobile friendly, dan harga terjangkau.'
+          dan usaha jasa. Desain menarik, mobile friendly, dan harga terjangkau.'
         />
 
         {/* Canonical */}
@@ -81,12 +83,17 @@ const HomePage = () => {
         <div ref={hargaRef}>
           <PricingSection title='SPESIFIKASI LAYANAN' plans={pricingPlans} showDetails='Spesifikasi detail' />
         </div>
+
         <div ref={produkRef} className='cardlist'>
           <h4>Dapatkan Web Pilihan Anda Disini </h4>
           <ListItemCard items={DataItemCard} />
-          <div className='see-more'>
+          {/* <div className='see-more'>
             <button>Lihat Semua</button>
-          </div>
+          </div> */}
+        </div>
+
+        <div>
+          <ServiceSection data={dataService} />
         </div>
       </div>
     </>

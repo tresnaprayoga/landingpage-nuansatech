@@ -15,6 +15,29 @@ const domainPricing = [
   { name: '.net', originalPrice: 'Rp 250.000', discountedPrice: 'Rp 140.000' },
 ];
 
+const promosection = [
+  {
+    id: 1,
+    title: 'File Toolkit for business or personal',
+    button1: 'Live Demo',
+    image: './toolkit.JPG',
+    url: 'https://nuansa-teknologi-pdf-tools.netlify.app/',
+  },
+  {
+    id: 2,
+
+    title: 'Dashboard Admin Sekolah',
+    price: 'from $1.99',
+    button: 'Hubungi Kami',
+    image: './admin.JPG',
+    url1: 'https://wa.me/6285811714593',
+  },
+];
+
+function getPromoSectionData() {
+  return promosection;
+}
+
 function DataHeroSection() {
   return dataHerosection;
 }
@@ -23,4 +46,4 @@ function HargaDomain() {
   return domainPricing;
 }
 
-export { DataHeroSection, HargaDomain };
+export { DataHeroSection, HargaDomain, getPromoSectionData };

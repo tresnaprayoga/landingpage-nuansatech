@@ -1,0 +1,92 @@
+.promoSection {
+  background: #a4e1f5;
+  margin-top: 100px;
+  padding: 50px 0;
+  box-sizing: border-box;
+}
+
+.promoSection p {
+  text-align: center;
+  margin: 20px auto;
+  font-size: 1.5rem;
+  color: white;
+  margin-bottom: 12px;
+  font-family: 'Baloo 2';
+  font-weight: 700;
+}
+
+.section {
+  display: flex;
+  flex-direction: row;
+  width: 60%;
+  margin: auto;
+  gap: 20px; /* atur jarak di sini */
+}
+
+.card {
+  padding: 20px;
+  border-radius: 12px;
+  box-sizing: border-box;
+  flex: 1;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  background-color: rgb(5, 213, 250);
+  transition: transform 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card img {
+  width: 100%;
+}
+
+.title {
+  font-size: 1.5rem;
+  color: white;
+  margin-bottom: 12px;
+  font-family: 'Baloo 2';
+  font-weight: 700;
+}
+.price {
+  font-size: 1.2rem;
+  color: white;
+  margin-bottom: 12px;
+  font-family: 'Baloo 2';
+}
+
+button {
+  margin-top: 12px;
+  margin-bottom: 10px;
+  padding: 10px 20px;
+  border-radius: 20px;
+  background: orange;
+  border: none;
+  cursor: pointer;
+  color: white;
+  font-family: 'Baloo 2';
+  font-size: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  .section {
+    flex-direction: column;
+    width: 95%;
+    gap: 20px;
+  }
+
+  .card {
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
+  }
+
+  .card img {
+    width: 95%;
+    margin: auto;
+    border-radius: 5px;
+  }
+
+  .content h2 {
+    margin-bottom: 8px;
+  }
+}

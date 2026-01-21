@@ -33,57 +33,64 @@
 
 const items = [
   {
-    title: 'Template 03',
+    title: 'Restoran',
     harga: 'Rp. 500.000',
     image: 'card11.JPG',
     buttonLink: 'https://usaha-makanan.netlify.app/',
   },
 
   {
-    title: 'Template 05',
+    title: 'Kursus',
     harga: 'Rp. 500.000',
     image: 'card7.JPG',
     buttonLink: 'https://landingpage-pendididkan.netlify.app/',
   },
   {
-    title: 'Template 06',
+    title: 'Event',
     harga: 'Rp. 500.000',
     image: 'card9.jpg',
     buttonLink: 'https://eventsports.netlify.app/',
   },
   {
-    title: 'Template 07',
+    title: 'Burger',
     harga: 'Rp. 500.000',
     image: 'card10.jpg',
     buttonLink: 'https://signaturebites.netlify.app/',
   },
 
   {
-    title: 'Toko Makanan Hewan',
+    title: 'PatShop',
     harga: 'Rp. 500.000',
     image: 'card16.JPG',
     buttonLink: 'https://pet-store-project.netlify.app/',
   },
 
   {
-    title: 'Template 08',
+    title: 'Property',
     harga: 'Rp. 500.000',
     image: 'card13.JPG',
     buttonLink: 'https://property-jaksel.netlify.app/',
   },
 
   {
-    title: 'Laundry 01',
+    title: 'Laundry',
     harga: 'Rp. 500.000',
     image: 'card14.JPG',
     buttonLink: 'https://laundry-01.netlify.app/',
   },
 
   {
-    title: 'Pendingin ruangan',
+    title: 'Service AC',
     harga: 'Rp. 500.000',
     image: 'card15.JPG',
     buttonLink: 'https://pendingin-ruangan.netlify.app/',
+  },
+
+  {
+    title: 'Apotik',
+    harga: 'Rp. 500.000',
+    image: 'card17.JPG',
+    buttonLink: 'https://apotik-store.netlify.app/',
   },
 ];
 
