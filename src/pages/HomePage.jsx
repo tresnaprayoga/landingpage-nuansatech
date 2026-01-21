@@ -85,7 +85,7 @@ const HomePage = () => {
         </div>
 
         <div ref={produkRef} className='cardlist'>
-          <h4>Dapatkan Web Pilihan Anda Disini </h4>
+          <h4>Dapatkan Website Pilihan Anda Disini </h4>
           <ListItemCard items={DataItemCard} />
           {/* <div className='see-more'>
             <button>Lihat Semua</button>
