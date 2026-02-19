@@ -5,12 +5,13 @@ import { useState, useEffect } from 'react';
 import Navbar from '../component/navbar';
 import WhyChooseUs from '../component/WhyChooseUs';
 import { FaHandHoldingHand, FaRegThumbsUp, FaSquareDribbble } from 'react-icons/fa6';
-import PricingSection from '../component/DaftarHarga';
-import pricingPlans from '../dataStatis/datalabelharga';
+
+import PricingHeroCta from '../component/PricingHeroCta';
 import DomainPricing from '../component/DomainPraicing';
 import ListItemCard from '../component/listCard/ListItemCard';
 import { DataHeroSection, HargaDomain, getPromoSectionData } from '../dataStatis/data';
 import { dataItemCard } from '../dataStatis/dataitemcard';
+import { getHeroCtaData } from '../dataStatis/datalabelharga';
 import ListHeroSection from '../component/heroListSection';
 import ServiceSection from '../component/outherService/outherServcie';
 import Aos from 'aos';
@@ -27,6 +28,7 @@ const HomePage = () => {
   const [DataHargaDomain, setDataHargaDOmain] = useState(() => HargaDomain());
   const [DataItemCard, setDataItemCard] = useState(() => dataItemCard());
   const dataService = getPromoSectionData();
+  const [heroPricingCtaData, setHeroPricingCtaData] = useState(() => getHeroCtaData());
 
   const features = [
     { title: 'HARGA BERSAHABAT', description: 'Biaya terjangkau untuk semua skala bisnis. \n Bisa bayar setelah pembuatan website jadi', icon: <FaHandHoldingHand /> },
@@ -80,9 +82,9 @@ const HomePage = () => {
           />
         </div>
 
-        <div ref={hargaRef}>
+        {/* <div ref={hargaRef}>
           <PricingSection title='SPESIFIKASI LAYANAN' plans={pricingPlans} showDetails='Spesifikasi detail' />
-        </div>
+        </div> */}
 
         <div ref={produkRef} className='cardlist'>
           <h4>Dapatkan Website Pilihan Anda Disini </h4>
@@ -90,6 +92,10 @@ const HomePage = () => {
           {/* <div className='see-more'>
             <button>Lihat Semua</button>
           </div> */}
+        </div>
+
+        <div ref={hargaRef}>
+          <PricingHeroCta {...heroPricingCtaData} />
         </div>
 
         <div>

@@ -1,0 +1,143 @@
+.containerpricingcta {
+  width: 100%;
+  background: linear-gradient(90deg, #ffffff 0%, #f7fffb 50%, #93cff7 100%);
+  padding: 40px 20px;
+  box-sizing: border-box;
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+
+.titeljudul {
+  padding: 40px 20px;
+  box-sizing: border-box;
+  margin: 10px auto;
+}
+
+.titeljudul p {
+  font-family: Poppins;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #6b7280;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.titeljudul h3 {
+  font-family: Poppins;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #2a2a72;
+  margin: 10px auto;
+  text-align: center;
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  margin: 30px auto;
+  gap: 40px;
+  width: 70%;
+}
+
+.content h4 {
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #2a2a72;
+  margin-bottom: 20px;
+  max-width: 520px;
+}
+
+.content p {
+  font-family: Poppins;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #6b7280;
+  max-width: 480px;
+  margin-bottom: 32px;
+}
+
+.content button {
+  background-color: #2a2a72;
+  color: #ffffff;
+  border: none;
+  padding: 14px 32px;
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.content button:hover {
+  background-color: #93cff7;
+}
+
+.imageWrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.imageWrapper img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* ===================== */
+/* TABLET */
+/* ===================== */
+@media (max-width: 992px) {
+  .containerpricingcta {
+    padding: 30px 16px;
+    margin: 10px auto;
+  }
+  .hero {
+    grid-template-columns: 1fr;
+  }
+
+  .content h4,
+  .content p {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* ===================== */
+/* MOBILE */
+/* ===================== */
+@media (max-width: 576px) {
+  .containerpricingcta {
+    padding: 30px 16px;
+    margin: 10px auto;
+  }
+  .hero {
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .content {
+    width: 100%;
+  }
+
+  .content h4 {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .content p {
+    font-size: 12px;
+    margin-right: auto;
+  }
+
+  .content button {
+    width: 100%;
+  }
+
+  .imageWrapper {
+    margin-top: -30px;
+    width: 100%;
+  }
+}
