@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 const Navbar = ({ homeRef, produkRef, profilRef, hargaRef }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -19,19 +20,35 @@ const Navbar = ({ homeRef, produkRef, profilRef, hargaRef }) => {
       </div>
 
       {/* Hamburger Icon */}
-      <div className='hamburger' onClick={toggleMenu}>
+      <div className={`hamburger ${isMenuOpen ? 'active' : ''}`} onClick={toggleMenu}>
         <span className='bar'></span>
         <span className='bar'></span>
         <span className='bar'></span>
       </div>
 
       {/* Menu Links */}
-      <div className={`navbar-links ${isMenuOpen ? 'active' : ''}`}>
-        <a onClick={() => scrollToSection(homeRef)}>Home</a>
-        <a onClick={() => scrollToSection(produkRef)}>Produk</a>
-        <a onClick={() => scrollToSection(profilRef)}>Profil</a>
-        <a onClick={() => scrollToSection(hargaRef)}>Harga</a>
-      </div>
+      <span>
+        <ul className={`navbar-links ${isMenuOpen ? 'active' : ''}`}>
+          <li>
+            <Link to='/' className='link' style={{ textDecoration: 'none' }}>
+              Home
+            </Link>
+          </li>
+          {/* <li onClick={() => scrollToSection(produkRef)}>Produk</li> */}
+          <li>
+            <Link to='/produk' className='link' style={{ textDecoration: 'none' }}>
+              Produk
+            </Link>
+          </li>
+          <li>
+            <Link to='/contact' className='link' style={{ textDecoration: 'none' }}>
+              Kontak
+            </Link>
+          </li>
+          {/* <li onClick={() => scrollToSection(profilRef)}>Profil</li>
+          <li onClick={() => scrollToSection(hargaRef)}>Harga</li> */}
+        </ul>
+      </span>
 
       {/* <div className='navbar-buttons'>
         <button className='my-account-btn'>My Account</button>

@@ -8,9 +8,9 @@ const Footer = () => {
       <div></div>
       <div className='footer-section logo-section'>
         <p className='brand'>
-          Nuansa<span>Technology</span>
+          Nuansa<span>Technologi | N-TECH</span>
         </p>
-        <p>© 2025 Nuansa Technology</p>
+        <p>© 2026 Nuansa Technologi</p>
       </div>
 
       <div className='footer-section link-section'>
@@ -24,7 +24,7 @@ const Footer = () => {
           {/* <a href='#' aria-label='Kunjungi Situs'>
             <FaFacebookF />
           </a> */}
-          <a href='https://bit.ly/4b0yRIo' aria-label='Kunjungi Situs' target='_blank' rel='noopener noreferrer'>
+          <a href='https://www.instagram.com/nuansatechnologi/' aria-label='Kunjungi Situs' target='_blank' rel='noopener noreferrer'>
             <FaInstagram />
           </a>
         </div>

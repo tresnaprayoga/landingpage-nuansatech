@@ -1,4 +1,5 @@
 import styles from '../style/pricingcta.module.css';
+import { Link } from 'react-router-dom';
 
 const PricingHeroCta = ({ title, desc, buttonText, image }) => {
   return (
@@ -16,7 +17,13 @@ const PricingHeroCta = ({ title, desc, buttonText, image }) => {
             Harga <br /> Rp. 500.000/tahun
           </p>
 
-          <button>{buttonText}</button>
+          {/* <button>
+            <Link to='/order'>{buttonText}</Link>
+          </button> */}
+
+          <Link to='/order'>
+            <button className={styles.button}>{buttonText}</button>
+          </Link>
         </div>
 
         <div className={styles.imageWrapper}>

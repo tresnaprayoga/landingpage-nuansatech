@@ -2,7 +2,7 @@ import React from 'react';
 import { useRef } from 'react';
 import { Helmet } from 'react-helmet-async';
 import { useState, useEffect } from 'react';
-import Navbar from '../component/navbar';
+// import Navbar from '../component/navbar';
 import WhyChooseUs from '../component/WhyChooseUs';
 import { FaHandHoldingHand, FaRegThumbsUp, FaSquareDribbble } from 'react-icons/fa6';
 
@@ -13,11 +13,12 @@ import { DataHeroSection, HargaDomain, getPromoSectionData } from '../dataStatis
 import { dataItemCard } from '../dataStatis/dataitemcard';
 import { getHeroCtaData } from '../dataStatis/datalabelharga';
 import ListHeroSection from '../component/heroListSection';
+import Articles from '../component/artikel/artikelitem';
 import ServiceSection from '../component/outherService/outherServcie';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 
-const HomePage = () => {
+const HomePage = ({ produkRef, profilRef, hargaRef }) => {
   useEffect(() => {
     Aos.init({
       duration: 800,
@@ -36,10 +37,6 @@ const HomePage = () => {
     { title: 'TAMPILAN WEB YANG MENARIK', description: 'Tampilan Web yang menarik Responsive disemua perangkat', icon: <FaRegThumbsUp /> },
   ];
 
-  const homeRef = useRef(null);
-  const produkRef = useRef(null);
-  const profilRef = useRef(null);
-  const hargaRef = useRef(null);
   return (
     <>
       <Helmet>
@@ -67,7 +64,6 @@ const HomePage = () => {
       </Helmet>
 
       <div className='home-page-landingpage'>
-        <Navbar homeRef={homeRef} produkRef={produkRef} profilRef={profilRef} hargaRef={hargaRef} />
         <ListHeroSection herosSection={DataHero} />
         <DomainPricing domains={DataHargaDomain} />
         <div ref={profilRef}>
@@ -96,6 +92,9 @@ const HomePage = () => {
 
         <div ref={hargaRef}>
           <PricingHeroCta {...heroPricingCtaData} />
+        </div>
+        <div>
+          <Articles />
         </div>
 
         <div>

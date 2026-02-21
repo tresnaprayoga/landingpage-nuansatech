@@ -80,6 +80,8 @@
   }
 
   .why-subtitle {
+    font-family: sans-serif;
+    line-height: 18px;
     font-size: 14px;
     width: 100%;
     text-align: left;

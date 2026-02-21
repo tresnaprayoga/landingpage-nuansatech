@@ -1,0 +1,144 @@
+.section {
+  width: 70%;
+  margin: 50px auto;
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  padding: 60px 20px;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  background: #ffffff;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+}
+
+.title {
+  font-family: Poppins;
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-family: Poppins;
+  text-align: center;
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+}
+
+.formGroup label {
+  font-family: Poppins;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.formGroup small {
+  font-family: Poppins;
+  font-size: 12px;
+  color: #888;
+  margin-bottom: 6px;
+}
+
+.formGroup input {
+  font-family: Poppins;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  font-size: 12px;
+  transition: 0.2s ease;
+}
+
+.formGroup input:focus {
+  border-color: #08abf7;
+  outline: none;
+}
+
+.button {
+  margin-top: 10px;
+  padding: 14px;
+  background: #16a4e6;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.button:hover {
+  background: #1e4fd8;
+}
+
+.button:disabled {
+  background: #9ca3af;
+  cursor: not-allowed;
+}
+
+.success {
+  font-family: Poppins;
+  margin-top: 15px;
+  color: green;
+  font-size: 14px;
+  text-align: center;
+}
+
+.image {
+  width: 70%;
+}
+
+.image img {
+  width: 100%;
+  border-radius: 12px;
+}
+
+.image p {
+  font-family: Poppins;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #6b7280;
+  margin-bottom: 20px;
+}
+
+/* Responsive */
+@media (max-width: 700px) {
+  .section {
+    width: 96%;
+    flex-direction: column;
+    padding: 30px 10px;
+  }
+  .container {
+    box-sizing: border-box;
+  }
+  .form {
+    box-sizing: border-box;
+  }
+
+  .title {
+    font-size: 20px;
+  }
+
+  .image {
+    width: 90%;
+  }
+
+  .image img {
+    width: 100%;
+    border-radius: 12px;
+  }
+}
