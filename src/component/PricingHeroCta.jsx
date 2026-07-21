@@ -14,7 +14,7 @@ const PricingHeroCta = ({ title, desc, buttonText, image }) => {
           <h4>{title}</h4>
           <p>{desc}</p>
           <p style={{ fontWeight: 'bold', fontSize: '1.2rem', marginTop: '16px', color: '#2a2a72' }}>
-            Harga <br /> Rp. 500.000/tahun
+            Harga <br /> Rp. 750.000/tahun
           </p>
 
           {/* <button>

@@ -1,7 +1,7 @@
 const pricingPlans = [
   {
     name: '1 Tahun Berlangganan',
-    price: 'IDR 500.000',
+    price: 'IDR 750.000',
     duration:
       ' ✔️ Gratis Hosting & Domain(.my.id), \n ✔️Integrasi Google Search Console  \n  ✔️Update konten  (teks/gambar) sesuai template \n ✔️Fitur: Formulir /WhatsApp, Google Map \n ✔️Desain responsif (Smart Phone & Desktop ) \n✔️ Revisi: 4x revisi minor (teks/gambar) \n✔️Gratis Copywriting Konten \n ✔️Integrasi Medsos  \n✔️Waktu Pengerjaan: 2 Hari kerja',
   },
@@ -23,7 +23,7 @@ const pricingPlans = [
 // src/data/data.js
 const heroCtaData = {
   title: 'Spesifikasi Layanan Pembuatan Website',
-  desc: ' ✔️ Free Hosting  \n ✔️ Free Domain (.com) \n ✔️Integrasi Google Search Console  \n  ✔️Update konten  (teks/gambar) sesuai template \n ✔️Fitur: Formulir /WhatsApp, Google Map \n✔️Desain responsif (Smart Phone & Desktop) \n✔️ Revisi: 4x revisi minor (teks/gambar) \n✔️Gratis Copywriting Konten \n ✔️Integrasi Medsos \n✔️Waktu Pengerjaan: 2 Hari kerja',
+  desc: ' ✔️ Free Hosting  \n ✔️ Free Domain (.my.id) \n ✔️Integrasi Google Search Console  \n  ✔️Update konten  (teks/gambar) sesuai template \n ✔️Fitur: Formulir /WhatsApp, Google Map \n✔️Desain responsif (Smart Phone & Desktop) \n✔️ Revisi: 4x revisi minor (teks/gambar) \n✔️Gratis Copywriting Konten \n ✔️Integrasi Medsos \n✔️Waktu Pengerjaan: 2 Hari kerja',
   buttonText: 'Pesan Website Anda Sekarang',
   image: './desaibanner1.png', // simpan di public/images
 };

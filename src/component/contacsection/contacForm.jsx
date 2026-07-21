@@ -35,7 +35,7 @@ export default function ContactSection() {
       <div className={styles.overlay}></div>
 
       <div className={styles.formCard}>
-        <h2>Ingin Berkonsultasi dengan expert Kami?</h2>
+        <h2>Ingin Berkonsultasi dengan kami?</h2>
         <p>Isi formulir di bawah ini dan tim kami akan menghubungi Anda segera </p>
 
         <form onSubmit={handleSubmit} className={styles.form}>

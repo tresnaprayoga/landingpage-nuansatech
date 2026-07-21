@@ -92,6 +92,19 @@ const items = [
     image: 'card17.JPG',
     buttonLink: 'https://apotik-store.netlify.app/',
   },
+
+  {
+    title: 'Sekolah Anak',
+    harga: 'Rp. 500.000',
+    image: 'card18.JPG',
+    buttonLink: 'https://sekolah-paud.netlify.app/',
+  },
+  {
+    title: 'Website Sekolah',
+    harga: 'Rp. 500.000',
+    image: 'card19.JPG',
+    buttonLink: 'https://web-sekolah-it.netlify.app/',
+  },
 ];
 
 function dataItemCard() {
