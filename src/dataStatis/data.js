@@ -26,11 +26,11 @@ const promosection = [
   {
     id: 2,
 
-    title: 'Dashboard Admin Sekolah',
+    title: 'Kelola Keuangan Sekolah & Bimbel Lebih Rapi, Cepat, dan Otomatis',
     price: 'from $1.99',
-    button: 'Hubungi Kami',
-    image: './admin.JPG',
-    url1: 'https://wa.me/6285811714593',
+    button: 'Informasi Lebih Lengkap',
+    image: './keuangan.JPG',
+    url1: 'https://adfinku.com/',
   },
 ];
 
