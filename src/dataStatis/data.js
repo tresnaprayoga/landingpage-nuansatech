@@ -16,21 +16,31 @@ const domainPricing = [
 ];
 
 const promosection = [
-  {
-    id: 1,
-    title: 'File Toolkit for business or personal',
-    button1: 'Live Demo',
-    image: './toolkit.JPG',
-    url: 'https://nuansa-teknologi-pdf-tools.netlify.app/',
-  },
+  // {
+  //   id: 1,
+  //   title: 'File Toolkit for business or personal',
+  //   button1: 'Live Demo',
+  //   image: './toolkit.JPG',
+  //   url: 'https://nuansa-teknologi-pdf-tools.netlify.app/',
+  // },
   {
     id: 2,
 
     title: 'Kelola Keuangan Sekolah & Bimbel Lebih Rapi, Cepat, dan Otomatis',
     price: 'from $1.99',
     button: 'Informasi Lebih Lengkap',
-    image: './keuangan.JPG',
-    url1: 'https://adfinku.com/',
+    image: './jurnal.JPG',
+    url1: 'https://wa.me/6285811714593',
+  },
+
+  {
+    id: 3,
+
+    title: 'Kartu Google Review untuk meningkatkan kepercayaan pelanggan',
+    price: 'from $1.99',
+    button: 'Informasi Lebih Lengkap',
+    image: './kartu.jpeg',
+    url1: 'https://wa.me/6285811714593',
   },
 ];
 

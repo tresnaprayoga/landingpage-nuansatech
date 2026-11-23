@@ -77,6 +77,46 @@ Dengan memahami perbedaan antara website dan e-commerce, pelaku usaha dapat mene
     image: '/we.JPG',
     date: 'March 12, 2024',
   },
+
+  {
+    id: 4,
+    slug: 'manfaat-dari-google-review',
+    title: 'Manfaat Google Review untuk Pertumbuhan dan Reputasi Bisnis',
+    excerpt: 'Di era digital saat ini, hampir setiap calon konsumen selalu mencari informasi terlebih dahulu sebelum memutuskan membeli produk atau mengunjungi suatu tempat.',
+    content: `
+                Di era digital saat ini, hampir setiap calon konsumen selalu mencari informasi terlebih dahulu sebelum memutuskan membeli produk atau mengunjungi suatu tempat. Salah satu rujukan utama yang paling sering diandalkan adalah Google Review. Fitur ulasan yang terintegrasi langsung dengan Profil Bisnis Google dan Google Maps ini tidak lagi sekadar menjadi kolom komentar biasa, melainkan aset penting yang mampu memengaruhi kepercayaan publik sekaligus mendorong pertumbuhan usaha.
+Manfaat paling mendasar dari Google Review terletak pada kemampuannya membangun kepercayaan dan kredibilitas. Calon pembeli cenderung lebih yakin pada pengalaman nyata sesama konsumen dibandingkan promosi langsung dari pemilik usaha. Ketika sebuah bisnis memiliki banyak ulasan positif beserta rating yang baik, keraguan calon pelanggan akan berkurang secara alami. Reputasi yang terlihat transparan ini membuat bisnis tampak lebih tepercaya, profesional, dan layak dipilih di tengah persaingan pasar.
+
+Selain memperkuat citra, Google Review juga berperan besar dalam meningkatkan visibilitas bisnis di mesin pencari. Google mempertimbangkan jumlah, kualitas, dan konsistensi ulasan sebagai salah satu sinyal dalam menentukan peringkat pencarian lokal. Artinya, bisnis dengan ulasan yang aktif dan relevan memiliki peluang lebih besar untuk muncul di bagian atas hasil pencarian maupun Google Maps ketika seseorang mencari layanan serupa di sekitar lokasinya. Semakin mudah ditemukan, semakin besar pula peluang mendatangkan pengunjung baru secara organik tanpa biaya iklan tambahan.
+Keberadaan ulasan yang positif pada akhirnya turut mempercepat keputusan pembelian dan meningkatkan konversi. Saat dihadapkan pada beberapa pilihan toko, restoran, atau penyedia jasa, konsumen biasanya memilih tempat dengan bukti kepuasan pelanggan yang paling meyakinkan. Informasi detail yang ditulis oleh pengulas—seperti keramahan pelayanan, kebersihan tempat, atau kualitas produk—memberikan gambaran jelas yang mendorong calon pembeli segera melakukan transaksi.
+
+Di sisi lain, Google Review juga berfungsi sebagai sarana evaluasi yang jujur bagi pemilik bisnis. Setiap masukan dari pelanggan mencerminkan pengalaman langsung mereka saat berinteraksi dengan usaha Anda. Ulasan positif membantu mengidentifikasi keunggulan yang perlu dipertahankan, sementara kritik atau keluhan membuka mata terhadap kekurangan yang mungkin luput dari perhatian internal. Jika dikelola dengan baik, masukan tersebut dapat menjadi dasar perbaikan kualitas produk maupun pelayanan secara berkelanjutan.
+
+Tidak kalah penting, fitur ini membuka ruang komunikasi dua arah antara bisnis dan pelanggan. Kebiasaan membalas setiap ulasan, baik yang bernada pujian maupun keluhan, menunjukkan bahwa pemilik usaha peduli dan menghargai suara konsumennya. Respons yang ramah terhadap ulasan positif dapat mempererat loyalitas pelanggan, sedangkan tanggapan yang sopan dan solutif atas ulasan negatif mampu meredam kekecewaan sekaligus memperlihatkan komitmen bisnis dalam menjaga kepuasan pelanggan.
+Dengan berbagai manfaat tersebut, Google Review layak dipandang sebagai investasi jangka panjang bagi setiap skala usaha. Mengajak pelanggan puas untuk berbagi pengalaman mereka secara jujur serta merespons setiap ulasan dengan konsisten akan membantu bisnis membangun reputasi yang kuat, memperluas jangkauan pasar, dan bertahan secara berkelanjutan di tengah ketatnya persaingan digital..
+    `,
+    image: '/kartu.jpeg',
+    date: 'September 23, 2026',
+  },
+
+  {
+    id: 5,
+    slug: 'Digitalisasi-Sekolah',
+    title: 'Digitalisasi Sekolah: Transformasi Pendidikan Menuju Masa Depan yang Adaptif',
+    excerpt: 'Perkembangan teknologi informasi telah membawa perubahan besar dalam berbagai aspek kehidupan, tidak terkecuali di dunia pendidikan.',
+    content: `
+                Perkembangan teknologi informasi telah membawa perubahan besar dalam berbagai aspek kehidupan, tidak terkecuali di dunia pendidikan. Digitalisasi sekolah kini hadir bukan sekadar sebagai tren mengikuti zaman, melainkan kebutuhan mendasar untuk menciptakan ekosistem belajar yang lebih relevan, efektif, dan adaptif. Melalui pemanfaatan perangkat digital serta sistem berbasis internet, sekolah berupaya menjembatani proses pembelajaran dan pengelolaan pendidikan agar selaras dengan tuntutan era modern.
+Dalam kegiatan belajar mengajar, digitalisasi membuka ruang eksplorasi yang jauh lebih luas bagi guru maupun siswa. Materi pelajaran tidak lagi terbatas pada buku cetak di ruang kelas, tetapi dapat disajikan melalui media interaktif seperti video pembelajaran, simulasi visual, hingga platform belajar daring yang bisa diakses kapan saja. Pendekatan ini membantu siswa memahami konsep-konsep abstrak dengan lebih mudah sekaligus mendorong mereka untuk belajar secara mandiri dan kolaboratif. Bagi guru, teknologi mempermudah penyusunan bahan ajar, pelaksanaan evaluasi secara cepat, serta pemantauan perkembangan belajar setiap siswa secara lebih terukur.
+
+Selain meningkatkan kualitas pembelajaran, digitalisasi juga membawa efisiensi nyata dalam tata kelola administrasi sekolah. Berbagai proses yang sebelumnya memakan waktu dan bergantung pada tumpukan berkas fisik—seperti pencatatan kehadiran, pengelolaan nilai, penjadwalan kelas, hingga penerimaan peserta didik baru—kini dapat terintegrasi dalam satu sistem informasi sekolah. Alur kerja tenaga kependidikan menjadi lebih rapi, transparan, dan minim kesalahan pencatatan, sehingga energi dan waktu dapat lebih difokuskan pada peningkatan mutu layanan pendidikan.
+Manfaat penting lainnya terlihat dari semakin eratnya komunikasi antara sekolah dan orang tua. Dengan hadirnya aplikasi pemantauan akademik atau portal komunikasi digital, orang tua dapat mengikuti perkembangan kehadiran, tugas, maupun capaian belajar anak secara langsung tanpa harus menunggu pembagian rapor di akhir semester. Keterbukaan informasi ini membangun kolaborasi yang lebih kuat antara pihak sekolah dan keluarga dalam mendampingi tumbuh kembang peserta didik.
+
+Meski menawarkan beragam kemudahan, keberhasilan digitalisasi sekolah tetap bergantung pada kesiapan sumber daya manusia dan pemerataan infrastruktur. Penyediaan perangkat keras dan jaringan internet yang memadai perlu berjalan beriringan dengan pelatihan berkelanjutan bagi para pendidik agar teknologi benar-benar dimanfaatkan secara optimal, bukan sekadar menggantikan papan tulis dengan layar. Selain itu, sekolah juga memiliki peran penting untuk membekali siswa dengan literasi digital serta etika berinternet agar mereka mampu menggunakan teknologi secara bijak dan bertanggung jawab.
+Pada akhirnya, digitalisasi sekolah bukanlah upaya untuk menggantikan peran guru, melainkan memperkuat kapasitas pendidik dalam menghadirkan pengalaman belajar yang bermakna. Ketika teknologi dipadukan dengan pendekatan pedagogis yang tepat, sekolah mampu mencetak generasi yang tidak hanya cakap secara akademis, tetapi juga siap menghadapi tantangan dunia digital di masa depan.`,
+
+    image: '/jurnal2.JPG',
+    date: 'September 23, 2026',
+  }
 ];
 
 function getAllArticles() {
